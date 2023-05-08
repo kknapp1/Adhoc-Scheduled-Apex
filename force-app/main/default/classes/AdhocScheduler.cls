@@ -3,7 +3,7 @@
  * @date 4/28/2023
  * @description 
  */
-public with sharing class AdhocScheduler implements Schedulable {
+public without sharing class AdhocScheduler implements Schedulable {
 
    String sToExecute;
 

@@ -3,7 +3,7 @@
  * @date 5/6/2023
  * @description 
  */
-public with sharing class AdhocSchedulerService {
+public without sharing class AdhocSchedulerService {
    private static String getJobName(AdhocSchedule__c adhoc) {
       return 'adhoc_' + adhoc.Name + '_' + Datetime.now().millisecond();
    }

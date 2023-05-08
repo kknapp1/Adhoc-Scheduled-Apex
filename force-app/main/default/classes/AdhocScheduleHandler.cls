@@ -1,4 +1,4 @@
-public with sharing class AdhocScheduleHandler {
+public without sharing class AdhocScheduleHandler {
    public static void runTriggers() {
       switch on Trigger.operationType {
          when BEFORE_INSERT {

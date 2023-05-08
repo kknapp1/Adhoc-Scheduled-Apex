@@ -3,11 +3,11 @@
  * @date 4/25/2023
  * @description
  */
-public with sharing class AdhocToolingApiService {
+public without sharing class AdhocToolingApiService {
 
    @TestVisible static String currentVer {
       get {
-         return 'v57.0';
+         return 'v57.0'; //TODO: It would be nice to make this dynamic
       }
       private set;
    }
