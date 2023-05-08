@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enabled__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Is this adhoc scheduled job enabled?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check to enable this adhoc scheduled job. Uncheck to disable.</inlineHelpText>
+    <label>Enabled</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

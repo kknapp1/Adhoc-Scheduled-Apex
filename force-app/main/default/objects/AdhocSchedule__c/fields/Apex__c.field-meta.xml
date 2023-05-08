@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Apex__c</fullName>
+    <description>The apex code which will be executed when the job is run</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The apex code which will be executed when the job is run</inlineHelpText>
+    <label>Apex</label>
+    <length>131072</length>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>15</visibleLines>
+</CustomField>
