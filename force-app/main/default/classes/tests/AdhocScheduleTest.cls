@@ -10,7 +10,7 @@ private class AdhocScheduleTest {
 
    @IsTest
    static void insert_update_covers() {
-      ToolingAPICalloutMock mockAuthResponse = new ToolingAPICalloutMock(
+      AdhocToolingAPICalloutMock mockAuthResponse = new AdhocToolingAPICalloutMock(
          200,
          'OK',
          'OK',
