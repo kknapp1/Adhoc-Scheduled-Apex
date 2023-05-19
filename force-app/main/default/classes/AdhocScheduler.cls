@@ -17,7 +17,7 @@ public without sharing class AdhocScheduler implements Schedulable {
          sToExecute = records[0].Apex__c;
    }
 
-   private void runNow() {
+   public void runNow() {
       AdhocToolingApiService.sendAnonApexAsync(sToExecute);
    }
 
