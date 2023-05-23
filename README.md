@@ -43,6 +43,8 @@ Can be replaced with
 ![img_3.png](img_3.png)
 
 ## Future enhancements  
+- Implement Run Now or Run Immediately option on job records
 - Implement cron parsing to schedule jobs multiple times per hour (e.g. every X minutes)
+- Build as sfdx package to simplify installation
 - Extend to create adhoc Batch jobs without implementing the `Batchable` interface
 
