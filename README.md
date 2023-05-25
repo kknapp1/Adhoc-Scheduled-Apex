@@ -44,8 +44,10 @@ Can be replaced with
 
 ## Future enhancements  
 - Add error message to records when there's an apex exception
+- Implement Run Now or Run Immediately option on job records
 - Expose Invocable method to run job immediately from Flow
 - Implement cron parsing to schedule jobs multiple times per hour (e.g. every X minutes)
+- Build as sfdx package to simplify installation
 - Extend to create adhoc Batch jobs without implementing the `Batchable` interface
 - Change cron string to picklist with commonly used default strings (every hour, every day, etc.)?
 
