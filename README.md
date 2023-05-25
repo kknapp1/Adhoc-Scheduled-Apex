@@ -43,6 +43,9 @@ Can be replaced with
 ![img_3.png](img_3.png)
 
 ## Future enhancements  
+- Add error message to records when there's an apex exception
+- Expose Invocable method to run job immediately from Flow
 - Implement cron parsing to schedule jobs multiple times per hour (e.g. every X minutes)
 - Extend to create adhoc Batch jobs without implementing the `Batchable` interface
+- Change cron string to picklist with commonly used default strings (every hour, every day, etc.)?
 
