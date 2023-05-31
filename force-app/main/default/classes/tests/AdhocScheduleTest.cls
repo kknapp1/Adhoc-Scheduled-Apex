@@ -4,12 +4,10 @@
  * @description Covers the trigger and the trigger handler through basic dml
  */
 @IsTest
-private class AdhocScheduleTest {
-
-
+public class AdhocScheduleTest {
 
    @IsTest
-   static void insert_update_covers() {
+   public static void insert_update_covers() {
       AdhocToolingAPICalloutMock mockAuthResponse = new AdhocToolingAPICalloutMock(
          200,
          'OK',
