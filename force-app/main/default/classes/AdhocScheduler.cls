@@ -5,17 +5,13 @@
  */
 public without sharing class AdhocScheduler implements Schedulable {
 
-   String sToExecute;
+   public String sToExecute {get; set;}
 
    @InvocableMethod
    public static void executeAdhoc(List<Id> adhocSchedulerIds){
       for (Id id : adhocSchedulerIds) {
          (new AdhocScheduler(id).runNow());
       }
-   }
-
-   public AdhocScheduler(String toExecute) {
-      sToExecute = toExecute;
    }
 
    public AdhocScheduler(Id adhocId) {

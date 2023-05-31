@@ -18,6 +18,8 @@ public without sharing class AdhocToolingApiService {
    }
 
    public static void sendAnonApex(String anonApex) {
+      if (String.isBlank(anonApex))
+         return;
       String baseURL = URL.getSalesforceBaseUrl().toExternalForm();
       String encodedAnon = EncodingUtil.urlEncode(anonApex, 'UTF-8');
       String request = baseURL + '/services/data/'+currentVer+'/tooling/executeAnonymous?' +
