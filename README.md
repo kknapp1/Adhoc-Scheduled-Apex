@@ -8,7 +8,30 @@ A utility for creating adhoc Scheduled Apex jobs without implementing a new clas
 - Edit cron schedule with automatic reschedule
 - No need to unschedule jobs before deploying related apex classes
 
+### ****BONUS USAGE: Execute stored apex scripts on-demand!** 
+
+## Installation
+
+### Step 1
+#### Install unlocked package (2 different ways)
+1. Install into your sandbox via url:  
+   /packagingSetupUI/ipLanding.app?apvId=04t6e000000gqCYAAY
+
+
+2. Install into your sandbox or scratch org using Salesforce CLI  
+   `sf package install --package "AdhocScheduledApex@0.1.0-3" --target-org jdoe@example.com`
+
+### Step 2
+#### Assign the "Adhoc Apex Scheduler" permission set
+The permset will make available a custom app, tabs, and layouts that are useful
+
 ## Usage
+Use the waffle menu to navigate to the "Adhoc Apex Scheduler" application  
+![img_4.png](img_4.png)
+
+Use the AdhocSchedules tab to create new adhoc scheduled jobs.  
+
+
 To create a new scheduled job, simply create a new `AdhocSchedule__c` record. Specify the apex you want to run, 
 the cron string to define the schedule, and save the record. As long as the `Enabled__c` field is TRUE, a new 
 apex scheduled job will be created to run your specified apex.
@@ -39,7 +62,7 @@ global class Send_SMS_Reminders implements Schedulable {
   }
 }
 ```
-Can be replaced with
+Can be replaced with  
 ![img_3.png](img_3.png)
 
 ## Future enhancements  
