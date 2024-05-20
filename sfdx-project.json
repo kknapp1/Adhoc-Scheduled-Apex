@@ -2,11 +2,20 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": true
+      "default": true,
+      "package": "AdhocScheduledApex",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": "Create Adhoc Scheduled Apex Jobs"
     }
   ],
-  "name": "adhocScheduler",
+  "name": "AdhocScheduledApex",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "57.0"
+  "sourceApiVersion": "59.0",
+  "packageAliases": {
+    "AdhocScheduledApex": "0Ho6e000000sXwLCAU",
+    "AdhocScheduledApex@0.1.0-2": "04t6e000000gqCTAAY",
+    "AdhocScheduledApex@0.1.0-3": "04t6e000000gqCYAAY"
+  }
 }

@@ -14,6 +14,8 @@
                 <elementReference>recordId</elementReference>
             </value>
         </inputParameters>
+        <nameSegment>AdhocScheduler</nameSegment>
+        <versionSegment>1</versionSegment>
     </actionCalls>
     <apiVersion>57.0</apiVersion>
     <description>Used by record action to execute apex in adhoc schedule records on-demand</description>
@@ -47,7 +49,7 @@
             <targetReference>Adhoc_Run_Now</targetReference>
         </connector>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <name>recordId</name>
         <dataType>String</dataType>
