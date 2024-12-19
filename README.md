@@ -15,7 +15,7 @@ A utility for creating adhoc Scheduled Apex jobs without implementing a new clas
 ### Step 1
 #### Install unlocked package (2 different ways)
 1. Install into your sandbox via url:  
-   /packagingSetupUI/ipLanding.app?apvId=04t6e000000gqCYAAY
+   /packagingSetupUI/ipLanding.app?apvId=04t6e000000gqCdAAI
 
 
 2. Install into your sandbox or scratch org using Salesforce CLI  
